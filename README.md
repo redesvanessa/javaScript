@@ -1,2 +1,1 @@
 # js-studying
-# js-studying
