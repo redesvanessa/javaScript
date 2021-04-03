@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ache a Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="logoSite.png">
+
+</header>
+<div id="form">
+    <p>Selecione a Banda que deseja conhecer e um ano para saber qual a música era famosa na época:</p>
+    <p> Primeiro passo: 
+        <select name="banda" id="banda">
+        <option value="" disabled selected>Selecione a Banda</option>
+        <option value="cbj">Charlie Brown</option>
+        <option value="cpm">CPM 22</option>
+        <option value="dtn">Detonautas</option>
+        <option value="nat">Natiruts</option>
+        <option value="arm">Armandinho</option>
+    </select>
+    </p>
+    <p> Segundo passo:
+        <select name="ano" id="ano">
+            <option value="" disabled selected>Selecione o Ano </option>
+            <option value="2002">Ano de 2002</option>
+            <option value="2005">Ano de 2005</option>
+        </select>
+    </p>
+    <p>Agora é a hora</p>
+    <p><input type="button" value="Descubra a Música" onclick="descobrir()"></p>
+
+</div>
+<div id="res">
+    <p><img id="img" src="dj.png" alt="img"></p>
+    <p id="musica"></p>
+    
+</div>
+
+<footer>
+    <img id="logoQA" src="QA.png" sizes="10px">
+</footer>
+ <script src="script.js"></script>
+
+</body>
+</html>
