@@ -1,0 +1,29 @@
+body{
+    background: coral;
+    font: normal 13pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.370);
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    color: grey;
+    text-align: center;
+    font-style: italic;
+}
+select{
+    width: 200px;
+}
